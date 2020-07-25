@@ -3,12 +3,12 @@ from flask import Flask, request, render_template, redirect, url_for
 
 app = Flask(__name__)
 
-@app.route('/index')
+@app.route('/')
 def index():
     return render_template('index.html')
+    
 
-
-@app.route('/index', methods=['POST', 'GET'])
+@app.route('/', methods=['POST', 'GET'])
 def index_post():
 
     mappings = {1000: "M", 900: 'CM', 500: "D", 400: 'CD', 100: "C",
@@ -31,7 +31,7 @@ def index_post():
         # "MCMXCIV"      
     return render_template('result.html',number_decimal=request.form['number'], number_roman=result)
 
-@app.route('/result', methods=['POST'])
+@app.route('/', methods=['POST'])
 def result_get():
     return (index_post())
 
@@ -39,4 +39,4 @@ def result_get():
 if __name__ == '__main__':
     #app.run('localhost', port=5000, debug=True)
     #app.run(debug=True)
-    app.run('0.0.0.0', port=80)   
+    app.run('0.0.0.0', port=80)     
