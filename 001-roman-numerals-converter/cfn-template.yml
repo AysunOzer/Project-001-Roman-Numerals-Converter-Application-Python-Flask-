@@ -82,7 +82,6 @@ Resources:
             cd templates
             wget https://raw.githubusercontent.com/AysunOzer/Project-001-Roman-Numerals-Converter-Application-Python-Flask-/master/001-roman-numerals-converter/templates/index.html
             wget https://raw.githubusercontent.com/AysunOzer/Project-001-Roman-Numerals-Converter-Application-Python-Flask-/master/001-roman-numerals-converter/templates/result.html
-            cd ..
             wget https://raw.githubusercontent.com/AysunOzer/Project-001-Roman-Numerals-Converter-Application-Python-Flask-/master/001-roman-numerals-converter/app.py
             python3 app.py
 
