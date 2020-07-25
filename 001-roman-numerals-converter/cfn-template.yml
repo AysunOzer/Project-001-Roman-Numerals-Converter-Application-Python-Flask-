@@ -65,9 +65,9 @@ Resources:
                     yum update -y
                     yum install python3 -y
                     pip3 install flask
-                    wget -P https://raw.githubusercontent.com/AysunOzer/clarusway-aws-workshop/master/001-roman-numerals-converter/templates/index.html
-                    wget -P https://raw.githubusercontent.com/AysunOzer/clarusway-aws-workshop/master/001-roman-numerals-converter/templates/result.html
-                    wget https://raw.githubusercontent.com/AysunOzer/clarusway-aws-workshop/master/001-roman-numerals-converter/app.py
+                    wget -P https://raw.githubusercontent.com/AysunOzer/Project-001-Roman-Numerals-Converter-Application-Python-Flask-/master/001-roman-numerals-converter/templates/index.html
+                    wget -P https://raw.githubusercontent.com/AysunOzer/Project-001-Roman-Numerals-Converter-Application-Python-Flask-/master/001-roman-numerals-converter/templates/result.html
+                    wget https://raw.githubusercontent.com/AysunOzer/Project-001-Roman-Numerals-Converter-Application-Python-Flask-/master/001-roman-numerals-converter/app.py
                     python3 app.py
 
 Outputs:
